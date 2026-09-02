@@ -3,8 +3,7 @@
 -- Specially designed for Diploma Project & College Presentation
 -- ====================================================================
 
-CREATE DATABASE IF NOT EXISTS student_management_db;
-USE student_management_db;
+-- Database is provided by Aiven (defaultdb)
 
 -- --------------------------------------------------------------------
 -- Table 1: users (Authentication & Roles: Admin / Student / Faculty)
