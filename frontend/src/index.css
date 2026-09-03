@@ -294,3 +294,246 @@ aside {
   flex-shrink: 0;
 }
 
+/* =============================================
+   MOBILE RESPONSIVE STYLES
+   ============================================= */
+
+@media (max-width: 768px) {
+  /* Landing page header */
+  .glass-nav {
+    padding: 0 16px !important;
+    height: 60px !important;
+  }
+
+  .glass-nav nav {
+    display: none !important;
+  }
+
+  .glass-nav > div:last-child .btn span {
+    display: none;
+  }
+
+  .glass-nav > div:last-child .btn {
+    padding: 8px 10px !important;
+  }
+
+  /* Hero section */
+  #home {
+    grid-template-columns: 1fr !important;
+    padding: 32px 16px 40px !important;
+    gap: 24px !important;
+  }
+
+  #home h1 {
+    font-size: 28px !important;
+  }
+
+  #home p {
+    font-size: 14px !important;
+  }
+
+  #home .btn {
+    padding: 12px 18px !important;
+    font-size: 13px !important;
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Services section */
+  #services {
+    padding: 40px 16px !important;
+  }
+
+  #services h2 {
+    font-size: 22px !important;
+  }
+
+  #services .card {
+    padding: 20px !important;
+  }
+
+  /* AI Advisor section */
+  #ai-advisor {
+    padding: 40px 16px !important;
+  }
+
+  #ai-advisor > div {
+    grid-template-columns: 1fr !important;
+    padding: 24px 16px !important;
+    gap: 24px !important;
+  }
+
+  #ai-advisor h2 {
+    font-size: 22px !important;
+  }
+
+  /* Developer section */
+  #developer {
+    padding: 40px 16px !important;
+  }
+
+  #developer .card {
+    flex-direction: column !important;
+    text-align: center !important;
+    padding: 24px 16px !important;
+  }
+
+  #developer h2 {
+    font-size: 22px !important;
+  }
+
+  #developer h3 {
+    font-size: 18px !important;
+  }
+
+  /* Contact section */
+  #contact {
+    padding: 40px 16px !important;
+  }
+
+  #contact > div:last-child {
+    grid-template-columns: 1fr !important;
+  }
+
+  #contact h2 {
+    font-size: 22px !important;
+  }
+
+  /* Footer */
+  footer {
+    padding: 24px 16px !important;
+  }
+
+  footer > div {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 12px !important;
+  }
+
+  footer nav, footer > div > div:last-child {
+    justify-content: center !important;
+  }
+
+  /* Portal Layout - Sidebar */
+  .app-container {
+    flex-direction: column;
+  }
+
+  .app-container aside {
+    width: 100% !important;
+    padding: 12px !important;
+    flex-direction: row !important;
+    overflow-x: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+  }
+
+  .app-container aside > div:first-child {
+    display: none !important;
+  }
+
+  .app-container aside nav {
+    flex-direction: row !important;
+    gap: 4px !important;
+    margin-top: 0 !important;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .app-container aside nav > p {
+    display: none !important;
+  }
+
+  .app-container aside nav button {
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    white-space: nowrap;
+  }
+
+  .app-container aside nav button span {
+    display: none;
+  }
+
+  .app-container aside > div:last-child {
+    display: none !important;
+  }
+
+  /* Navbar in portal */
+  .main-content > header {
+    padding: 0 12px !important;
+    height: 56px !important;
+  }
+
+  .main-content > header > div:first-child {
+    width: 140px !important;
+    padding: 6px 8px !important;
+  }
+
+  .main-content > header > div:first-child input {
+    font-size: 11px !important;
+  }
+
+  .main-content > header .btn span {
+    display: none;
+  }
+
+  .main-content > header .btn {
+    padding: 6px 8px !important;
+  }
+
+  /* Content body */
+  .content-body {
+    padding: 16px 12px !important;
+  }
+
+  /* Stats cards - make responsive */
+  .content-body > div > div {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Tables */
+  .table-container {
+    font-size: 12px;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 10px 8px !important;
+    font-size: 11px !important;
+  }
+
+  /* Modals */
+  .modal-content {
+    max-width: 95vw !important;
+    margin: 10px !important;
+  }
+
+  .modal-overlay {
+    padding: 10px !important;
+  }
+
+  /* Feature highlights row */
+  #home > div:first-child > div:last-child {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  #home > div:first-child > div:last-child > div[style*="width: 1px"] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #home h1 {
+    font-size: 24px !important;
+  }
+
+  .content-body > div > div {
+    grid-template-columns: 1fr !important;
+  }
+
+  .btn {
+    font-size: 12px !important;
+    padding: 8px 12px !important;
+  }
+}
+
